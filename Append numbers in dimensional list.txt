@@ -1,0 +1,12 @@
+# Constants for rows and columns
+ROWS = int(input("Enter number of rows: "))
+COLS = int(input("Enter number of columns: "))
+
+# Create a 2-dimensional list.
+values = [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],]
+
+# Fill the list with random numbers.
+for r in range(ROWS):
+    for c in range(COLS):
+        values[r][c] = int(input("Enter numbers: "))
+print(values)
